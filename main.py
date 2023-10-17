@@ -2,7 +2,7 @@ import os
 import re
 k  = input("hello?")
 # Define the root directory where the files are located
-root_directory = 'C:\\Users\\User\\Downloads\\lk'  # Replace with the actual path
+root_directory = 'C:\\Users\\User\\Downloads\\lk\\d'  # Replace with the actual path
 
 # Iterate through the directories and files
 for dir_name, subdirs, filenames in os.walk(root_directory):
