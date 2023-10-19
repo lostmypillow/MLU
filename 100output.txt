@@ -1,0 +1,9 @@
+017_4.cha Average MLU for 100 utterances over 1000 iterations: 2.87
+017_5.cha Average MLU for 100 utterances over 1000 iterations: 2.86
+017_3.cha Average MLU for 100 utterances over 1000 iterations: 2.06
+005_3.cha Average MLU for 100 utterances over 1000 iterations: 2.64
+005_5.cha Average MLU for 100 utterances over 1000 iterations: 4.12
+005_4.cha Average MLU for 100 utterances over 1000 iterations: 3.27
+015_4.cha Average MLU for 100 utterances over 1000 iterations: 2.50
+015_3.cha Average MLU for 100 utterances over 1000 iterations: 2.49
+015_5.cha Average MLU for 100 utterances over 1000 iterations: 2.93
