@@ -45,7 +45,7 @@ dir_nm =  '/content/drive/MyDrive/MLUCH/'
 #Now I start to look for all files in that directory, stores all filenames in variable "filenames"
 for dir_name, subdirs, filenames in os.walk(dir_nm):
     for filename in filenames:
-        
+        count = 0
 #if filename ends with .cha, lol this is pretty straightforward
         if filename.endswith('.cha'):
             cha_file_path = os.path.join(dir_name, filename)
@@ -77,6 +77,10 @@ for dir_name, subdirs, filenames in os.walk(dir_nm):
 #if that sentence is just empty after I remove all unnecessary characters and turned them into individual words, the script will ignore it
                         if len(w.words) == 0:
                           continue
+
+#these 2 lines are for outputting each utterance, not important
+                        count += 1
+                        print(f"Line {count}: {w.words}")
 
 #Morphemes are counted here, determined by the length of the set, aka how many words are there in the set?
                         morpheme_count += len(w.words)
